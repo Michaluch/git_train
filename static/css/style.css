@@ -1,0 +1,290 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+    height: 60px;
+    padding-top: 20px;
+    background: #ffffff;
+    text-align: center;
+    font-family: 'Monda', sans-serif;
+    font-size: 40px;
+}
+
+.slogan {
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 0 0 150px;
+}
+
+#post_title {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+}
+
+#post_author {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 12px;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.fFoter {
+    clear: both;
+    height: 40px;
+}
+
+.footer {
+	clear: both;
+	width: 1000px;
+	
+	height: 40px;
+	z-index: 10;
+	margin: auto;
+	
+	position: relative;
+    bottom: 0;
+}
+
+.sub {
+    
+    padding-left: 12px;
+    width:333px;
+    height: 40px;
+    display: table-cell;
+    border-right: solid #555555 1px;  
+}
+.sub:last-child {
+    border:0px
+}
+
+footer h4 {
+    color: #6E914F;
+}
+
+.folowimages {
+    width: 32px;
+    height: 32px;    
+}
+
+.poweredimages {
+    width: 100px;
+    height: 32px;    
+}
+
+/*hr's
+-----------------------------------------------------------------------------*/
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+/*main menu
+-----------------------------------------------------------------------------*/
+.menu-bar {
+    height: 28px;
+    font: 14px Poiret One, sans-serif;
+}
+
+a {
+    padding-left: 10px;
+    color: #4169e1;
+    font-weight: bold;
+}
+
+a.right_link {
+    float: right;
+    padding-right: 10px;
+    color: #4169e1;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+
+/*
+----------------------------------------------------------------------------*/
+
+/*******************
+LOGIN FORM
+*******************/
+
+.login-form {
+	width: 500px;
+	margin: 0 auto;
+	position: relative;
+	
+	background: #f3f3f3;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+
+/*******************
+HEADER
+*******************/
+
+.login-form .head {
+	padding: 40px 30px 30px 30px;
+}
+
+.login-form .header h1 {
+	font-family: 'Bree Serif', serif;
+	font-weight: 300;
+	font-size: 28px;
+	line-height:34px;
+	color: #414848;
+	text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+	margin-bottom: 10px;
+}
+
+.login-form .head span {
+	font-size: 11px;
+	line-height: 16px;
+	color: #678889;
+	text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+}
+
+/*******************
+CONTENT
+*******************/
+
+.login-form .fields {
+	padding: 0 30px 25px 30px;
+}
+
+/* Input field */
+.login-form .fields .input {
+	width: 388px;
+	padding: 10px 25px;
+	
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #9d9e9e;
+	text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+	
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+}
+
+/* Second input field */
+.login-form .fields .password, .login-form .fields .pass-icon {
+	margin-top: 15px;
+}
+
+.login-form .fields .input:hover {
+	background: #dfe9ec;
+	color: #414848;
+}
+
+.login-form .fields .input:focus {
+	background: #dfe9ec;
+	color: #414848;
+	
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+}
+
+.content input:focus + div{
+	left: -46px;
+}
+
+/* Animation */
+.input, .register {
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+}
+
+/*******************
+FOOTER
+*******************/
+
+.login-form .down {
+	padding: 5px 30px 5px 30px;
+	overflow: auto;
+	
+	background: #d4dedf;
+	border-top: 1px solid #fff;
+	
+	box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+	-moz-box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+	-webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+}
+
+/* Register button */
+.login-form .down .login {
+	display: block;
+	float: right;
+	padding: 10px;
+	margin-right: 20px;
+	
+	background: none;
+	border: none;
+	cursor: pointer;
+	
+	font-family: 'Bree Serif', serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #414848;
+	text-shadow: 0px 1px 0 rgba(256,256,256,0.5);
+}
+
+.login-form .down .login:hover {
+	color: #3f9db8;
+}
+
+.login-form .down .login:focus {
+	position: relative;
+	bottom: -1px;
+}
