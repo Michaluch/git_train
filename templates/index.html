@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Welcome to my personal blog {% endblock %}
+{% block content %}
+    {% block posts %}
+        {% for doc in json %}
+            <p>
+                <div id='post_title'>{{doc.title}}</div>
+                <div id='post_author'>Author: <i>{{doc.author}}</i></div>
+                <hr style='style-two'>
+                <p class='content'>{{doc.content|safe}} </p>
+            </p>
+        {% endfor %}
+    {% endblock %}
+{% endblock %}
