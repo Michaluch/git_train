@@ -8,7 +8,7 @@ app.config.update(dict(
 
 app.route('/')
 def index():
-    """This Method run web app""
+    """This Method run web app"""
     return "Hello World!"
 
 app.errorhandler(404)
